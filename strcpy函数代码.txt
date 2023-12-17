@@ -1,4 +1,14 @@
- // 1、计算 src 的长度 len  
+/*/*/*/*/*/*
+
+strcpy函数代码
+
+*/*/*/*/*/*/
+
+/**
+远程edit
+**/
+
+// 1、计算 src 的长度 len  
  size_t len = strlen(src);  
    // 2、用malloc申请长度 len+1 的内存空间  
  char* dest_ptr = (char*)malloc((len + 1) * sizeof(char));  
